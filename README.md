@@ -1,1 +1,1 @@
-# wq_webapp
+# wine_quality_webapp
