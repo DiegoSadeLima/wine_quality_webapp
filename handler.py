@@ -43,9 +43,9 @@ def predict():
     #prediction
     pred = model.predict(df1)
     
-    df1['prediction'] = pred
+    df_raw['prediction'] = pred
     
-    return df1.to_json(orient='records')
+    return df_raw.to_json(orient='records')
            
 if __name__ == '__main__':
     #start flask
